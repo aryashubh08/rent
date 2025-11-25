@@ -49,11 +49,12 @@ exports.createBooking = async (req, res) => {
     const { car, pickupDate, returnDate } = req.body;
     const isAvailable = await checkAvailability(car, pickupDate, returnDate);
     if (!isAvailable) {
-      return res.status(500).json({
+      return res.status(400).json({
         success: false,
-        message: error.message,
+        message: "Car is not available for the selected dates",
       });
     }
+
     const carData = await Car.findById(car);
 
     //calculate price based on pickupDate and returnDate
