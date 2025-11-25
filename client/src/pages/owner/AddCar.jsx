@@ -146,7 +146,12 @@ const AddCar = () => {
               <option value="">Select a category</option>
               <option value="Sedan">Sedan</option>
               <option value="SUV">SUV</option>
+              <option value="Hatchback">Hatchback</option>
+              <option value="Coupe">Coupe</option>
               <option value="Van">Van</option>
+              <option value="Convertible">Convertible</option>
+              <option value="Pickup Truck">Pickup Truck</option>
+              <option value="Supercars">Supercars</option>
             </select>
           </div>
         </div>
