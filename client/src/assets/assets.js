@@ -49,7 +49,15 @@ import car_image11 from "./car_image11.png";
 import car_image12 from "./car_image12.png";
 import car_image14 from "./car_image14.png";
 
-export const cityList = ["New York", "Los Angeles", "Houston", "Chicago"];
+export const cityList = [
+  "New Delhi",
+  "Mumbai",
+  "Bangalore",
+  "Muzaffarnagar",
+  "Gurgaon",
+  "Massoorie",
+  "Dehradun",
+];
 
 export const assets = {
   logo,
